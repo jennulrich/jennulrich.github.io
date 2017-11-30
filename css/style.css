@@ -1,0 +1,122 @@
+@import url("mobile.css");
+
+/***************************** GENERAL ***************************/
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 0.5;
+}
+
+/***************************** HEADER ****************************/
+header {
+
+}
+
+nav {
+    height: 5vh;
+    width: 100%;
+    background: #A6E4E7;
+    position: fixed;
+    z-index: 20;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10pt;
+    line-height: 5vh;
+}
+
+.profil {
+    display: flex;
+    background: url("../img/dust_scratches.png");
+    width: 30%;
+    padding: 20px 0 0 0;
+    text-align: center;
+    height: 92vh;
+    position: fixed;
+    margin-top: 5vh;
+}
+
+.entireProfil {
+    margin: auto;
+}
+
+.profil img {
+    width: 50%;
+    /*height: 100%;*/
+    border: 4px solid #A6E4E7;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.coordonnees {
+    margin: auto 0;
+}
+
+.jobTitle {
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/***************************** FORMATION ****************************/
+.formation, .xpPro, .portfolio {
+    width: 70%;
+    margin-left: 30%;
+    min-height: 100vh;
+    /*padding-top: 5vh;*/
+    display: flex;
+}
+
+.portfolio { background: #e5fbfc; }
+
+.formation, .xpPro { background: #f9f9f9; }
+
+.entireFormation, .entirePortfolio, .entireXp {
+    margin: auto;
+    width: 80%;
+}
+
+.formTitle, .portTitle, .xpTitle {
+    padding: 30px 0 10px 30px;
+    text-transform: uppercase;
+}
+
+.formDetail {
+    padding: 0 0 0 30px;
+}
+
+.titleDetailForm {
+    text-transform: uppercase;
+}
+
+div.ipssi, div.troisW, div.scarron {
+    padding-bottom: 10px;
+}
+
+p.boldDescription, span.boldDescription {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+ul.listeRealisations {
+    text-transform: none;
+}
+
+
