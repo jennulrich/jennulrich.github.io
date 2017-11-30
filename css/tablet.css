@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+    /*********************** PROFIL *********************/
+    div.profil {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .profil .entireProfil img {
+        width: 30%;
+        vertical-align: middle;
+    }
+
+    .entireProfil .coordonnees {
+        display: inline-block;
+        font-size: 14pt;
+        text-align: left;
+        vertical-align: middle;
+        padding-left: 40px;
+    }
+
+    .entireProfil .jobTitle {
+        font-size: 14pt;
+    }
+
+    /*********************** FORMATION + PORTFOLIO + XP*********************/
+    div.formation {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 370px;
+    }
+
+    div.portfolio, div.xpPro {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .entireFormation .formTitle, .entirePortfolio .portTitle, .entireXp .xpTitle {
+        padding: 30px 0 0 0;
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .entireFormation .formDetail, .entirePortfolio .formDetail, .entireXp .formDetail {
+        padding: 0;
+    }
+
+    .formDetail .ipssi, .formDetail .troisW, .formDetail .scarron {
+        margin: 0;
+        font-size: 14pt;
+    }
+
+    .formDetail .ipssi p, .formDetail .troisW p, .formDetail .scarron p {
+        line-height: 1.5;
+    }
+}
