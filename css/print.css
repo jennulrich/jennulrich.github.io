@@ -1,0 +1,70 @@
+@media print {
+    @page  {
+        margin: 0;
+    }
+
+    header #nav {
+        display: none;
+    }
+
+    /*********************** PROFIL *********************/
+    div.profil {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .profil .entireProfil img {
+        width: 20%;
+        vertical-align: middle;
+    }
+
+    .entireProfil .coordonnees {
+        display: inline-block;
+        font-size: 12pt;
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 40px;
+    }
+
+    .entireProfil .coordonnees p:nth-child(2) {
+        display: none;
+    }
+
+    .entireProfil .jobTitle {
+        font-size: 10pt;
+    }
+
+    /*********************** FORMATION + PORTFOLIO + XP*********************/
+    div.formation {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    div.portfolio, div.xpPro {
+        margin-left: 0;
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .entireFormation .formTitle, .entirePortfolio .portTitle, .entireXp .xpTitle {
+        /*padding: 30px 0 0 0;*/
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .entireFormation .formDetail, .entirePortfolio .formDetail, .entireXp .formDetail {
+        padding: 0;
+    }
+
+    .formDetail .ipssi, .formDetail .troisW, .formDetail .scarron {
+        margin: 0;
+        font-size: 12pt;
+    }
+
+    .formDetail .ipssi p, .formDetail .troisW p, .formDetail .scarron p {
+        line-height: 1.5;
+    }
+}

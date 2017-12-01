@@ -1,6 +1,7 @@
 @import url("mobile.css");
 @import url("tablet.css");
 @import url("laptop.css");
+@import url("print.css");
 
 /***************************** GENERAL ***************************/
 html {
@@ -72,12 +73,13 @@ nav ul li a {
     font-family: 'Patrick Hand', cursive;
 }
 
-/***************************** FORMATION ****************************/
+/***************************** FORMATION + REAL + XP****************************/
 .formation, .xpPro, .portfolio {
     width: 70%;
     margin-left: 30%;
     min-height: 100vh;
     display: flex;
+    scroll-behavior: smooth;
 }
 
 .portfolio { background: #e5fbfc; }
@@ -106,3 +108,5 @@ p.boldDescription, span.boldDescription {
 }
 
 ul.listeRealisations { text-transform: none; }
+
+
