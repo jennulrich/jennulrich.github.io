@@ -134,20 +134,21 @@ p.boldDescription, span.boldDescription {
 ul.listeRealisations { text-transform: none; }
 
 /***************************** FORMULAIRE DE CONTACT ****************************/
+.inputCoordonnees, .mail, .message {
+    width: 80%;
+}
+
 .mail, .message, .button {
     margin-top: 25px;
 }
 
-.inputCoordonnees label {
-    padding-right: 20px;
+.inputCoordonnees label, .mail label {
+    margin-top: 20px;
+    display: block;
 }
 
-.mail label {
-    padding-right: 12px;
-}
-
-.inputCoordonnees input {
-    width: 35%;
+.inputCoordonnees input{
+    width: 100%;
     margin-right: 20px;
     border: 0;
     border-bottom: 2px solid #A6E4E7;
@@ -156,7 +157,7 @@ ul.listeRealisations { text-transform: none; }
 }
 
 .mail input {
-    width: 84.5%;
+    width: 100%;
     border: 0;
     border-bottom: 2px solid #A6E4E7;
     background-color: transparent;
@@ -169,12 +170,12 @@ ul.listeRealisations { text-transform: none; }
     border: 2px solid #A6E4E7;
     background-color: transparent;
     outline: none;
-    width: 92%;
+    width: 100%;
     border-radius: 3px;
 }
 
 .button button {
-    border: 1px solid #eee;
+    border: 1px solid darkgrey;
     border-radius: 3px;
     padding: 10px;
     background-color: #f9f9f9;
