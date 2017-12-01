@@ -28,6 +28,7 @@ FICHIERS A LA RACINE :
 CV en 5 parties
   + Partie profil fixe
     - La partie profil contient une photo, les coordonnées, l'intitulé de poste ainsi que les icones réseaux sociaux
+    - Opacity transition au hover sur la photo de profil
   + Navbar fixe
   + Partie formations, partie réalisations, partie expériences professionnelles, partie contact
     - La partie contact contient un formulaire de contact  
