@@ -23,7 +23,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
@@ -76,7 +76,7 @@ nav ul li a {
 /***************************** SPRITE ****************************/
 .entireSprite {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .sprite {
