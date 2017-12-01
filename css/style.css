@@ -99,23 +99,23 @@ nav ul li a {
 
 
 /***************************** FORMATION + REAL + XP****************************/
-.formation, .xpPro, .portfolio {
+.formation, .xpPro, .portfolio, .contact {
     width: 70%;
     margin-left: 30%;
     min-height: 100vh;
     display: flex;
 }
 
-.portfolio { background: #e5fbfc; }
+.portfolio, .contact { background: #e5fbfc; }
 
 .formation, .xpPro { background: #f9f9f9; }
 
-.entireFormation, .entirePortfolio, .entireXp {
+.entireFormation, .entirePortfolio, .entireXp, .entireContact {
     margin: auto;
     width: 80%;
 }
 
-.formTitle, .portTitle, .xpTitle {
+.formTitle, .portTitle, .xpTitle, .contactTitle {
     padding: 30px 0 10px 30px;
     text-transform: uppercase;
 }
@@ -133,4 +133,51 @@ p.boldDescription, span.boldDescription {
 
 ul.listeRealisations { text-transform: none; }
 
+/***************************** FORMULAIRE DE CONTACT ****************************/
+.mail, .message, .button {
+    margin-top: 25px;
+}
 
+.inputCoordonnees label {
+    padding-right: 20px;
+}
+
+.mail label {
+    padding-right: 12px;
+}
+
+.inputCoordonnees input {
+    width: 35%;
+    margin-right: 20px;
+    border: 0;
+    border-bottom: 2px solid #A6E4E7;
+    background-color: transparent;
+    outline: none;
+}
+
+.mail input {
+    width: 84.5%;
+    border: 0;
+    border-bottom: 2px solid #A6E4E7;
+    background-color: transparent;
+    outline: none;
+}
+
+.message textarea {
+    display: block;
+    margin-top: 20px;
+    border: 2px solid #A6E4E7;
+    background-color: transparent;
+    outline: none;
+    width: 92%;
+    border-radius: 3px;
+}
+
+.button button {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: dimgrey;
+    outline: none;
+}
