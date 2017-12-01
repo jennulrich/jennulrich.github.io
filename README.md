@@ -11,6 +11,7 @@ DOSSIERS :
     - mobile.css
     - laptop.css
     - normalize.css
+    - print.css
     - style.css
     - tablet.css
   
@@ -18,19 +19,24 @@ DOSSIERS :
     - contient les fichiers fonts de font awesome
     
   + img
-    - contient le background de la partie profil et la photo de profil
+    - contient le background de la partie profil, la photo de profil, les icones sprite
     
 FICHIERS A LA RACINE :
   + index.html
  
  
-CV en 4 parties
+CV en 5 parties
   + Partie profil fixe
+    - La partie profil contient une photo, les coordonnées, l'intitulé de poste ainsi que les icones réseaux sociaux
   + Navbar fixe
-  
-Responsive sur smartphone et tablette
+  + Partie formations, partie réalisations, partie expériences professionnelles, partie contact
+    - La partie contact contient un formulaire de contact  
 
 
+CSS
+  + Media queries mobile, tablet, print
+
+Utilisation de plusieurs display (flex, block)
 
 Bonne correction Martin :D
 
