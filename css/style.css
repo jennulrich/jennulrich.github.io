@@ -73,13 +73,37 @@ nav ul li a {
     font-family: 'Patrick Hand', cursive;
 }
 
+/***************************** SPRITE ****************************/
+.entireSprite {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sprite {
+    background: url('../img/icons2.png') no-repeat 0 -36px;
+    width: 44px;
+    height: 45px;
+}
+
+.sprite2 {
+    background: url('../img/icons2.png') no-repeat -53px -36px;
+    width: 44px;
+    height: 45px;
+}
+
+.sprite3 {
+    background: url('../img/icons2.png') no-repeat -106px -36px;
+    width: 44px;
+    height: 45px;
+}
+
+
 /***************************** FORMATION + REAL + XP****************************/
 .formation, .xpPro, .portfolio {
     width: 70%;
     margin-left: 30%;
     min-height: 100vh;
     display: flex;
-    scroll-behavior: smooth;
 }
 
 .portfolio { background: #e5fbfc; }
